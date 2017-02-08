@@ -7,6 +7,8 @@ img {
   height: 250px;
 }
 
+
+
 header {
   width: 100vw;
   text-align: center;
@@ -22,4 +24,21 @@ footer {
   width: 100vw;
   text-align: center;
   padding-top: 25px;
+}
+
+.giphyPlacement {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+}
+
+@media (max-width: 1000px) {
+  header img {
+    width: 100vw;
+  }
+  header h2 {
+    width: 100vw;
+  }
 }
